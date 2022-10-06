@@ -16,7 +16,6 @@
 
 body {
   background: url("background-2556893_1280.jpeg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
+  margin: auto;
+  background-size: 100%;
 }
