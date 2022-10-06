@@ -76,6 +76,22 @@ aboutTuesdays === 'n') {
 }
 //-------------------------------------------------------------------
 
+let youSICK = prompt('Are you sick of my questions?').toLowerCase();
+
+if (youSICK === 'yes' || youSICK === 'y') {
+  alert('Well im sick of you too!');
+  //console.log('Well im sick of you too!');
+} else if (youSICK === 'no' || 
+youSICK === 'n') {
+  alert('Awe thank you for being so kind and understanding :D');
+  //console.log('Awe thank you for being so kind and understanding :D');
+} else { 
+  alert('I must have fried you brain.');
+  //console.log('I must have fried you brain.');
+}
+
+//-----------------------------------------------------------------------------------------
+
 let enterSITE = prompt('Wanna enter the site?').toLowerCase();
 
 if (enterSITE === 'yes' || enterSITE === 'y') {
@@ -90,19 +106,10 @@ enterSITE === 'n') {
   //console.log('Whatever I will let you in anyways >:(');
 }
 
-//-----------------------------------------------------------------------------------------
-
-let youSICK = prompt('Are you sick of my questions?').toLowerCase();
-
-if (youSICK === 'yes' || youSICK === 'y') {
-  alert('Well im sick of you too!');
-  //console.log('Well im sick of you too!');
-} else if (youSICK === 'no' || 
-youSICK === 'n') {
-  alert('Awe thank you for being so kind and understanding :D');
-  //console.log('Awe thank you for being so kind and understanding :D');
-} else { 
-  alert('I must have fried you brain.');
-  //console.log('I must have fried you brain.');
-}
+for (const key in object) {
+	if (Object.hasOwnProperty.call(object, key)) {
+		const element = object[key];
+		}
+		
+	}
 }
