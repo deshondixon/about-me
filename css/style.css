@@ -1,21 +1,30 @@
   h1 {
     font-size: 7rem;
     text-decoration-color: aliceblue;
+    color: whitesmoke
   }
 
   ul {
-    list-style-type: disc;
-    margin: 1rem;
+    text-align: center;
+    text-orientation: sideways;
+    margin: 15px;
+    color: rgb(177, 0, 177);
+    padding: 15px
+
   }
 
   ol {
+    border: 100% auto;
+    border-image: url("264422-abstract-dark-picture.jpeg") auto;
+    text-align: center;
+    text-orientation: sideways;
     list-style: decimal;
     list-style-position: inside;
     padding: 1rem;
   }
 
 body {
-  background: url("background-2556893_1280.jpeg");
+  background: url("spiral-lines-stripes-4k_1536854710.jpeg");
   margin: auto;
   background-size: 100%;
 }
