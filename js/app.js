@@ -1,115 +1,101 @@
 'use strict';
 
-console.log('hi');
+function whatsName() {
 
-let booleanValue = true;
-
-if (booleanValue) {
-  console.log('if condition is true this will print in the console')
-
-/* 
-
-&& - is the 'logical and'
-One false with an && and it will not run
-
-|| - is the "logical or" (double pipe)
-One true and it will run
-
-! - 'logical not' often called 'bang'
-
-
-*/
-
-let trueValue = true;
-let falseValue = false;
-
-if (trueValue || falseValue) {
-  console.log
-}
-
-let username = prompt('What is your name?');
-  alert('Hello ' + username + ' !')
+  let username = prompt('What is your name?');
+  alert('Hello ' + username + ' !');
   //console.log(username);
 
-let aboutME = prompt('Do you want to know about me?').toLowerCase();
-
-if (aboutME === 'yes' || aboutME === 'y') {
-  alert('My favorite food is Spaghetti!');
-  //console.log('My favorite food is Spaghetti!');
-} else if (aboutME === 'no' || 
-aboutME === 'n') {
-  alert('Wow that hurts.');
-  //console.log('Wow that hurts.');
-} else { 
-  alert('Just answer Yes or a No');
-  //console.log('Just answer Yes or a No');
 }
+whatsName();
+
+//--------------------------------------------------------
+function aboutME(){
+
+  let aboutME = prompt('Do you want to know about me?').toLowerCase();
+
+  if (aboutME === 'yes' || aboutME === 'y') {
+    alert('My favorite food is Spaghetti!');
+  //console.log('My favorite food is Spaghetti!');
+  } else if (aboutME === 'no' || aboutME === 'n') {
+    alert('Wow that hurts.');
+  //console.log('Wow that hurts.');
+  } else {
+    alert('Just answer Yes or a No');
+  //console.log('Just answer Yes or a No');
+  }
+}
+aboutME();
 //----------------------------------------------------------------------------
 
-let fanAnime = prompt('Do you think i am a fan of anime?').toLowerCase();
+function fanAnime(){
 
-if (fanAnime === 'yes' || fanAnime === 'y') {
-  alert('Yes tokyo ghoul is my favorite!');
+  let fanAnime = prompt('Do you think i am a fan of anime?').toLowerCase();
+
+  if (fanAnime === 'yes' || fanAnime === 'y') {
+    alert('Yes tokyo ghoul is my favorite!');
   //console.log('Yes tokyo ghoul is my favorite!');
-} else if (fanAnime === 'no' || 
-fanAnime === 'n') {
-  alert('You would be wrong actually!');
+  } else if (fanAnime === 'no' ||fanAnime === 'n') {
+    alert('You would be wrong actually!');
   //console.log('You would be wrong actually!');
-} else { 
-  alert('Just answer Yes or a No');
+  } else {
+    alert('Just answer Yes or a No');
   //console.log('Just answer Yes or a No');
+  }
 }
+fanAnime();
 //-----------------------------------------------------------------------------
 
-let aboutTuesdays = prompt('What about tuesday?').toLowerCase();
+function aboutTuesdays(){
 
-if (aboutTuesdays === 'yes' || aboutTuesdays === 'y') {
-  alert('Yeah I got all my mistakes out on Monday lol');
+  let aboutTuesdays = prompt('What about tuesday?').toLowerCase();
+
+  if (aboutTuesdays === 'yes' || aboutTuesdays === 'y') {
+    alert('Yeah I got all my mistakes out on Monday lol');
   //console.log('Yeah I got all my mistakes out on Monday lol');
-} else if (aboutTuesdays === 'no' || 
-aboutTuesdays === 'n') {
-  alert('Sorta right but me and tuesdays have no beef.');
+  } else if (aboutTuesdays === 'no' || aboutTuesdays === 'n') {
+    alert('Sorta right but me and tuesdays have no beef.');
   //console.log('Sorta right but me and tuesdays have no beef.');
-} else { 
-  alert('Just answer Yes or a No');
+  } else {
+    alert('Just answer Yes or a No');
   //console.log('Just answer Yes or a No');
+  }
 }
+aboutTuesdays();
 //-------------------------------------------------------------------
 
-let youSICK = prompt('Are you sick of my questions?').toLowerCase();
+function youSICK(){
 
-if (youSICK === 'yes' || youSICK === 'y') {
-  alert('Well im sick of you too!');
+  let youSICK = prompt('Are you sick of my questions?').toLowerCase();
+
+  if (youSICK === 'yes' || youSICK === 'y') {
+    alert('Well im sick of you too!');
   //console.log('Well im sick of you too!');
-} else if (youSICK === 'no' || 
-youSICK === 'n') {
-  alert('Awe thank you for being so kind and understanding :D');
+  } else if (youSICK === 'no' || youSICK === 'n') {
+    alert('Awe thank you for being so kind and understanding :D');
   //console.log('Awe thank you for being so kind and understanding :D');
-} else { 
-  alert('I must have fried you brain.');
+  } else {
+    alert('I must have fried you brain.');
   //console.log('I must have fried you brain.');
+  }
 }
+youSICK();
 
 //-----------------------------------------------------------------------------------------
 
-let enterSITE = prompt('Wanna enter the site?').toLowerCase();
+function enterSITE(){
 
-if (enterSITE === 'yes' || enterSITE === 'y') {
-  alert('YAY! Thank for tolerating all my questioning!');
+  let enterSITE = prompt('Wanna enter the site?').toLowerCase();
+
+  if (enterSITE === 'yes' || enterSITE === 'y') {
+    alert('YAY! Thank for tolerating all my questioning!');
   //console.log('YAY! Thank for tolerating all my questioning!');
-} else if (enterSITE === 'no' || 
-enterSITE === 'n') {
-  alert('I can understand i have asked a lot of questions :(');
+  } else if (enterSITE === 'no' || enterSITE === 'n') {
+    alert('I can understand i have asked a lot of questions :(');
   //console.log('I can understand i have asked a lot of questions :(');
-} else { 
-  alert('Whatever I will let you in anyways >:(');
+  } else {
+    alert('Whatever I will let you in anyways >:(');
   //console.log('Whatever I will let you in anyways >:(');
+  }
 }
-
-for (const key in object) {
-	if (Object.hasOwnProperty.call(object, key)) {
-		const element = object[key];
-		}
-		
-	}
-}
+enterSITE();
