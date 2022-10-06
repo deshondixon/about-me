@@ -89,4 +89,20 @@ enterSITE === 'n') {
   alert('Whatever I will let you in anyways >:(');
   //console.log('Whatever I will let you in anyways >:(');
 }
+
+//-----------------------------------------------------------------------------------------
+
+let youSICK = prompt('Are you sick of my questions?').toLowerCase();
+
+if (youSICK === 'yes' || youSICK === 'y') {
+  alert('Well im sick of you too!');
+  //console.log('Well im sick of you too!');
+} else if (youSICK === 'no' || 
+youSICK === 'n') {
+  alert('Awe thank you for being so kind and understanding :D');
+  //console.log('Awe thank you for being so kind and understanding :D');
+} else { 
+  alert('I must have fried you brain.');
+  //console.log('I must have fried you brain.');
+}
 }
