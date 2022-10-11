@@ -99,3 +99,34 @@ function enterSITE(){
   }
 }
 enterSITE();
+
+//-------------------------------------------------------------------------
+
+alert ('Now lets play a game. You will need to guess a number between 1 and 10');
+
+let guessAmount1 = 4;
+let myNum = 9;
+for (let i = 0; i < guessAmount1; i++){
+  let numGuess = prompt('What is my favorite number between 1 and 10?');
+  if (numGuess < myNum) {
+    alert('Too low, try again!');
+  }
+  if (numGuess > myNum) {
+    alert('Too high, try again!');
+  }
+  if (numGuess === myNum, score++){
+    alert('Perfecto! You guessed it!');
+  }
+}
+alert('The correct number is 9');
+let guessAmount2 = 6;
+let statesLived = [' Michigan', ' Indiana', ' Illinois', ' Virginia', ' Texas', ' Washington',];
+for(let i = 0; i < guessAmount2; i++){
+  let userGuess = prompt('Name a State I have lived in.').toLowerCase();
+  for(let j = 0; j < statesLived.length; j++){
+    if(userGuess === statesLived[j]){
+      alert('Nicely Done!');
+    }
+  }
+}
+alert('No more guesses, I lived in ${statesLived}');

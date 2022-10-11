@@ -27,4 +27,11 @@ body {
   background: url("spiral-lines-stripes-4k_1536854710.jpeg");
   margin: auto;
   background-size: 100%;
+  
+}
+
+p {
+  font-size: 1rem;
+  text-decoration-color: aliceblue;
+  color: rgb(236, 0, 0)
 }
