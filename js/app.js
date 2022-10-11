@@ -102,31 +102,19 @@ enterSITE();
 
 //-------------------------------------------------------------------------
 
-alert ('Now lets play a game. You will need to guess a number between 1 and 10');
+alert ('TIME TO PLAY A GAME >:D');
 
 let guessAmount1 = 4;
 let myNum = 9;
 for (let i = 0; i < guessAmount1; i++){
-  let numGuess = prompt('What is my favorite number between 1 and 10?');
+  let numGuess = prompt('How old was I when I built my first PC? (1-10 (No more, No less))');
   if (numGuess < myNum) {
-    alert('Too low, try again!');
+    alert('Nah man I am not that smart , too low!');
   }
   if (numGuess > myNum) {
-    alert('Too high, try again!');
+    alert('You do not think to highly of me do you :(. You guessed too high!');
   }
   if (numGuess === myNum, score++){
-    alert('Perfecto! You guessed it!');
+    alert('Yesssssiirrrr! That is a decent again to build a pc right! :D');
   }
 }
-alert('The correct number is 9');
-let guessAmount2 = 6;
-let statesLived = [' Michigan', ' Indiana', ' Illinois', ' Virginia', ' Texas', ' Washington',];
-for(let i = 0; i < guessAmount2; i++){
-  let userGuess = prompt('Name a State I have lived in.').toLowerCase();
-  for(let j = 0; j < statesLived.length; j++){
-    if(userGuess === statesLived[j]){
-      alert('Nicely Done!');
-    }
-  }
-}
-alert('No more guesses, I lived in ${statesLived}');

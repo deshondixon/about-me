@@ -1,7 +1,7 @@
   h1 {
     font-size: 7rem;
     text-decoration-color: aliceblue;
-    color: whitesmoke
+    color: rgb(191, 0, 255)
   }
 
   ul {
@@ -9,7 +9,7 @@
     text-orientation: sideways;
     margin: 15px;
     color: rgb(177, 0, 177);
-    padding: 15px
+    padding: 20px
 
   }
 
@@ -18,7 +18,6 @@
     border-image: url("264422-abstract-dark-picture.jpeg") auto;
     text-align: center;
     text-orientation: sideways;
-    list-style: decimal;
     list-style-position: inside;
     padding: 1rem;
   }
@@ -31,7 +30,24 @@ body {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-decoration-color: aliceblue;
-  color: rgb(236, 0, 0)
+  color: rgb(255, 255, 255)
+}
+
+ol { 
+  font-size: 1.5rem;
+  text-decoration-color: aliceblue;
+  color: rgb(255, 255, 255)
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration-color: aliceblue;
+  color: rgb(68, 255, 39)
+}
+
+footer {
+  color: gold;
 }
